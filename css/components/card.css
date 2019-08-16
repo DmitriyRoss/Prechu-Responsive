@@ -1,0 +1,41 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  width: 33.33%;
+}
+
+.card-image {
+  width: 186px;
+  height: 186px;
+
+}
+
+.card-title {
+color: #5094f2;
+font-family: "Segoe WPN";
+font-size: 14px;
+font-weight: 400;
+margin-top: 30px;
+margin-bottom: 0;
+}
+
+.card-subtitle {
+  width: 250px;
+color: #909090;
+font-family: "Segoe WPN";
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+}
+
+
+.card-cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}

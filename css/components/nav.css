@@ -1,0 +1,14 @@
+.header-nav {
+    display: flex;
+    width: 40%;
+    margin-top: 50px;
+
+}
+.nav-item {
+color: #6c6c6c;
+font-family: 'Segoe WP N' Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 400;
+letter-spacing: 0.2px;
+  
+}

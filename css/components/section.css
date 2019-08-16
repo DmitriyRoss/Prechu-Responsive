@@ -1,0 +1,119 @@
+.section {
+  position: relative;  
+}
+
+.section-title {
+
+}
+
+.section-subtitle {
+
+}
+
+.section-description {
+
+}
+
+.section-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -2;
+}
+
+.section-background img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(255,000,000,0,4);
+  z-index: -1;
+}
+
+.section-foreground {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-hero {
+  margin-top: 20px;
+}
+
+.section-contrary {
+  margin-top: 65px;
+}
+
+.section-cart {
+  margin-top: 90px;
+}
+
+.section-cart-heading {
+color: #6f7173;
+font-family: "Segoe WP N";
+font-size: 42px;
+font-weight: 400;
+}
+
+.section-cart-image {
+width: 371px;
+height: 279px;
+}
+
+.section-cart-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-cart-right {
+  width: 50%;
+}
+
+.section-cart-right-heading {
+color: #6f7173;
+font-family: "Segoe WPN";
+font-size: 26px;
+font-weight: 400;
+margin-top: 50px;
+}
+
+.section-cart-right-description {
+  margin-top: 30px;
+color: #909090;
+font-family: "Segoe WPN";
+font-size: 15px;
+font-weight: 300;
+line-height: 36px;
+}
+
+.section-footer {
+  margin-top: 50px;
+}
+
+.section-footer-hr {
+height: 1px;
+opacity: 0.4;
+}
+
+.section-footer-description {
+margin-top: 15px;
+margin-bottom: 20px;
+color: #909090;
+font-family: "Segoe WPN";
+font-size: 15px;
+font-weight: 300;
+line-height: 36px;
+text-align: center;
+}

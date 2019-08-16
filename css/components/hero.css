@@ -1,0 +1,56 @@
+.hero {
+  position: relative;
+}
+.hero-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -2;
+}
+.hero-background img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(255,000,000,0,4);
+  z-index: -1;
+}
+
+.hero-foreground {
+}
+
+.hero-heading {
+color: #ffffff;
+font-family: 'Segoe WP N' Arial, Helvetica, sans-serif;
+font-size: 26px;
+font-weight: 300;
+margin-bottom: 0;
+}
+
+.hero-subtitle {
+  color: #ffffff;
+font-family: 'Segoe WP N' Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 300;
+line-height: 1.6;
+}
+
+.hero-right {
+  display: flex;
+flex-direction: column;
+width: 60%;
+margin-top: 150px;
+
+}
+
+.hero-icon {
+  margin-top: 35px;
+}
