@@ -46,11 +46,14 @@ line-height: 1.6;
 .hero-right {
   display: flex;
 flex-direction: column;
-width: 60%;
+margin: 0 auto;
+max-width: 60%;
 margin-top: 150px;
 
 }
 
 .hero-icon {
   margin-top: 35px;
+max-width: 345px;
+height: 436px;
 }

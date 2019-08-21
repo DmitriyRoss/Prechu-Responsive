@@ -17,7 +17,7 @@ html {
 
 .container {
   box-sizing: content-box;
-  width: 990px;
+  max-width: 990px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -58,7 +58,43 @@ img {
   display: inline-block;
 }
 
-.swiper-container {
-  width: 600px;
-  height: 300px;
+@media(min-width: 320px) {
+  .nav {
+    display: none;
+  }
+  
+
+  .hero-right {
+    max-width: 60%;
+    
+  }
+
+  .grid-spacebetween {
+    margin-top: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+
+  .width-1-1-sm {
+    flex-basis: 100%;
+  }
+  
+  .card-grid {
+    flex-direction: row;
+  }
+ 
+
 }
+
+@media(min-width: 640px) {
+  .nav {
+    display: block;
+  }
+  
+
+  
+}
+
