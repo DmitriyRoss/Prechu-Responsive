@@ -2,17 +2,6 @@
   position: relative;  
 }
 
-.section-title {
-
-}
-
-.section-subtitle {
-
-}
-
-.section-description {
-
-}
 
 .section-background {
   position: absolute;
@@ -59,7 +48,6 @@
 
 .section-cart-heading {
 color: #6f7173;
-font-family: "Segoe WP N";
 font-size: 42px;
 font-weight: 400;
 }
@@ -83,7 +71,6 @@ height: 279px;
 
 .section-cart-right-heading {
 color: #6f7173;
-font-family: "Segoe WPN";
 font-size: 26px;
 font-weight: 400;
 margin-top: 50px;
@@ -92,7 +79,6 @@ margin-top: 50px;
 .section-cart-right-description {
   margin-top: 30px;
 color: #909090;
-font-family: "Segoe WPN";
 font-size: 15px;
 font-weight: 300;
 line-height: 36px;
@@ -111,9 +97,18 @@ opacity: 0.4;
 margin-top: 15px;
 margin-bottom: 20px;
 color: #909090;
-font-family: "Segoe WPN";
 font-size: 15px;
 font-weight: 300;
 line-height: 36px;
 text-align: center;
+}
+
+@media(min-width: 320px) {
+  .section-cart-image {
+  width: 215px;
+  height: 162px;
+  }
+  .section-cart-right {
+    text-align: center;
+  }
 }

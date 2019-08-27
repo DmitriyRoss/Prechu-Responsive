@@ -57,3 +57,26 @@ margin-top: 150px;
 max-width: 345px;
 height: 436px;
 }
+
+
+@media(min-width:320px) {
+  .hero-icon {
+margin: 0 auto;
+width: 177px;
+height: 223px;
+  }
+
+  .hero-right {
+    margin: 0 auto;
+  }
+}
+
+@media(min-width:960px) {
+  .iphone, .hero-icon {
+    margin-top: 35px;
+  width: 345px;
+  height: 436px;
+  margin-bottom: 70px;
+  }
+  
+}

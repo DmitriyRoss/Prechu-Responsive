@@ -7,7 +7,7 @@ html {
   font-weight: 400;
   color:#000000;
   line-height: 1.5;
-  font-family: 'Segoe WP N' sans-serif;
+  font-family: 'Segoe WP N';
 }
 
 .wrapper {
@@ -68,13 +68,8 @@ img {
     max-width: 60%;
     
   }
-
-  .grid-spacebetween {
-    margin-top: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
+  .container {
+    padding: 0 30px;
   }
   
 
@@ -82,9 +77,6 @@ img {
     flex-basis: 100%;
   }
   
-  .card-grid {
-    flex-direction: row;
-  }
  
 
 }
@@ -92,6 +84,10 @@ img {
 @media(min-width: 640px) {
   .nav {
     display: block;
+  }
+
+  .container {
+    padding: 0 70px;
   }
 
   
@@ -110,6 +106,9 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+  .container {
+    padding: 0 30px;
   }
 }
 
